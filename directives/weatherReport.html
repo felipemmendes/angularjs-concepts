@@ -1,0 +1,8 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ weatherDay.date |  date: dateFormat }}</h3>
+    </div>
+    <div class="panel-body">
+        Daytime temperature: {{ weatherDay.day.avgtemp_c }}˚C
+    </div>
+</div>
